@@ -28,7 +28,7 @@ db.sequelize.sync();
 
 // Ruta raíz
 app.get("/", (req, res) => {
-  res.json({ message: "UMG Web Application" });
+  res.json({ message: "API BIBLIOTECA 2025" });
 });
 
 // Rutas de la API
