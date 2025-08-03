@@ -34,7 +34,7 @@ app.get("/", (req, res) => {
 // Rutas de la API
 require("./api-biblioteca/routes/estudiante.routes")(app);
 require("./api-biblioteca/routes/libro.routes")(app);
-require("./api-biblioteca/routes/prestamo.routes")(app);
+require("./app/routes/prestamo.routes")(app);
 
 // Definir puerto y arrancar el servidor
 const PORT = process.env.PORT || 8081;
